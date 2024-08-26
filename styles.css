@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  padding: 40px 10px;
+}
+
+.phone-container {
+  border: 5px solid black;
+  border-radius: 20px;
+  height: 500px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phone-top {
+  background-color: black;
+  margin-top: 5px;
+  width: 100px;
+  height: 20px;
+  border-radius: 80px;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: aquamarine;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  width: 100%;
+  background-color: brown;
+}
+
+.input-container input {
+  width: 50%;
+}
+
+.results-div {
+  background-color: lightgrey;
+  height: 68%;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  overflow: auto;
+}
+
+.check-clear-container {
+  height: 12%;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+.check-clear-container button {
+    padding: 5px 12px;
+}
+
+
+.valid-results {
+  color: green;
+}
+
+
+
+.invalid-results {
+  color: red;
+}
