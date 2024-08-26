@@ -71,15 +71,12 @@ main {
 }
 
 .check-clear-container button {
-    padding: 5px 12px;
+  padding: 5px 12px;
 }
-
 
 .valid-results {
   color: green;
 }
-
-
 
 .invalid-results {
   color: red;
